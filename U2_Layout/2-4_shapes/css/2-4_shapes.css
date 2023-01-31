@@ -4,11 +4,13 @@
 */
 
 .imagen-circulo {
-  /* border-radius: 50%; */
+  border-radius: 50%;
   max-width: 25em;
   float: right;
   margin-right: -10em;
   background: #004e92;
+  shape-outside: circle(50%) border-box;
+  shape-margin: 1rem;
 }
 
 .imagen-circulo img {
@@ -23,19 +25,26 @@
   background: #004e92;
   margin-left: -10em;
   margin-right: 1em;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  shape-outside: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%) border-box;
+  shape-margin: 1rem;
 }
 
 .imagen-hexagono img {
   display: block;
   mix-blend-mode: hard-light;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  shape-outside: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
 @media (max-width: 37.5em) {
   .imagen-circulo {
     margin: 1em;
+	shape-outside: unset;
   }
 
   .imagen-hexagono {
     margin: 1em;
+	shape-outside: unset;
   }
 }
