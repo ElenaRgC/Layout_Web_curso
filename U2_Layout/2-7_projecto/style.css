@@ -52,12 +52,28 @@ article {
     text-align: justify;
     width: 80%;
 
-    color: slateblue;
+    color: firebrick;
     font-weight: bold;
 }
 
 p {
     padding-bottom: 0.5rem;
+}
+
+.tiendas {
+    float: left;
+    max-width: 300px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    shape-outside: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    margin-right: 1rem;
+}
+
+.muralla {
+    float: right;
+    max-width: 300px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    shape-outside: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    margin-left: 0.3rem;
 }
 
 /* Correcciones para pantallas por debajo de 600px */
@@ -84,5 +100,12 @@ p {
     .introduccion {
         columns: unset;
         width: 100%;
+    }
+
+    .fotografia {
+        float: none;
+        clip-path: none;
+        shape-outside: unset;
+        margin: 1rem auto;
     }
 }
