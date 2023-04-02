@@ -31,14 +31,15 @@ main {
 .ficha {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
     margin: var(--separacion);
 
     background-color: #222;
     border-radius: 0.5rem;
     overflow: hidden;
-
     box-shadow: 5px 2px 5px 1px #bab20f2f;
+
+    min-width: 300px;
+    flex: 1;
 }
 
 .ficha:nth-child(1) > img,
