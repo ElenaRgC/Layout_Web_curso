@@ -14,13 +14,17 @@ En esta lección aprendimos a utilizar Flexbox para crear diseños flexibles y a
 
 En mi proyecto de esta lección, he creado fichas responsive con los jefes de Dark Souls III usando flex de diferentes maneras.
 
-## Lección 5: Grid
+## Lección 5: Grid avanzado
 
-En esta lección aprenderemos a utilizar CSS Grid, un sistema de diseño bidimensional que nos permite crear diseños más complejos y estructurados. Aún no he completado el ejercicio de esta lección.
+En esta lección junto con la anterior aprenderemos a utilizar CSS Grid, un sistema de diseño bidimensional que nos permite crear diseños más complejos y estructurados. 
 
-## Lección 6: Z-index
+Aún no he completado el ejercicio de esta lección.
 
-En esta lección aprenderemos sobre el concepto de z-index y cómo podemos utilizarlo para controlar la posición de los elementos en una página web. Aún no he completado el ejercicio de esta lección.
+## Lección 6: La tercera dimensión: profundidad y efectos en scroll
+
+En esta lección aprenderemos sobre el concepto de z-index y cómo podemos utilizarlo para controlar la posición de los elementos en una página web.
+
+Aún no he completado el ejercicio de esta lección.
 
 ## Proyecto final
 
