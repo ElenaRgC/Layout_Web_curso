@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+        <title>Señores de la Ceniza</title>
+    </head>
+    <body>
+        <main>
+            <div class="ficha">
+                <img
+                    src="./img/Vigilantes_del_Abismo.webp"
+                    alt="Captura de pantalla de Dark Souls III mostrando un Vigilante del Abismo."
+                />
+                <div class="datos">
+                    <h3 class="nombre">Vigilantes del Abismo</h3>
+                    <span class="salud">1.548 PS</span>
+                </div>
+                <hr />
+                <article>
+                    Los Vigilantes del Abismo, también conocidos como la Legión
+                    de no muertos de Farron, son un grupo de jefes y Señores de
+                    la Ceniza de Dark Souls III. Son los herederos del
+                    legendario Caballero Artorias en su lucha contra la
+                    Oscuridad. Ellos son los encargados de vigilar el Abismo, el
+                    lugar del que nace el mal primigenio, y ponerle fin, tome la
+                    forma que tome.
+                </article>
+                <a
+                    class="wiki"
+                    href="https://darksouls.fandom.com/es/wiki/Vigilantes_del_Abismo"
+                    >Vigilantes del Abismo en Fandom.com</a
+                >
+            </div>
+            <div class="ficha">
+                <img
+                    src="./img/Aldrich_el_Devoradioses.webp"
+                    alt="Captura de pantalla de Dark Souls III mostrando a Aldrich el Devoradioses."
+                />
+                <div class="datos">
+                    <h3 class="nombre">Aldrich, el Devoradioses</h3>
+                    <span class="salud">4.727 PS</span>
+                </div>
+                <hr />
+                <article>
+                    Aldrich, el Devoradioses era originalmente una abominación
+                    de masa oscura que se arrastraba en busca del trono y las
+                    ascuas pero tras devorar a Gwyndolin el Sol Oscuro asumió
+                    parte de su forma fisica. Aldrich había devorado a
+                    Gwyndolin, que estaba enfermo en ese momento, poseyendo así
+                    la capacidad y la apariencia de este último. Aldrich fue
+                    encerrado y obligado a convertirse en Señor de la Ceniza, en
+                    lugar de sacrificarse voluntariamente o maldiciéndose como
+                    el Príncipe Lothric.
+                </article>
+                <a
+                    class="wiki"
+                    href="https://darksouls.fandom.com/es/wiki/Aldrich,_el_Devoradioses"
+                    >Aldrich en Fandom.com</a
+                >
+            </div>
+            <div class="ficha">
+                <img
+                    src="./img/Yhorm_el_Gigante.webp"
+                    alt="Captura de pantalla de Dark Souls III mostrando a Yhorm el Gigante."
+                />
+                <div class="datos">
+                    <h3 class="nombre">Yhorm, el Gigante</h3>
+                    <span class="salud">28.000 PS</span>
+                </div>
+                <hr />
+                <article>
+                    Yhorm, el Gigante es uno de los Señores de la Ceniza de Dark
+                    Souls III. Hace mucho tiempo, el gigante Yhorm, descendiente
+                    de un antiguo conquistador, fue llamado a dirigir a su
+                    pueblo antaño subyugado, con una espada pesada y un escudo
+                    duro como la piedra. Yhorm regaló una espada matagigantes a
+                    aquellos que no confiaban en él, para demostrar su
+                    fiabilidad.
+                </article>
+                <a
+                    class="wiki"
+                    href="https://darksouls.fandom.com/es/wiki/Yhorm,_el_Gigante"
+                    >Yhorm en Fandom.com</a
+                >
+            </div>
+            <div class="ficha">
+                <img
+                    onclick="cambiarPersonaje()"
+                    id="img"
+                    src="./img/Lorian_Principe_Anciano.webp"
+                    alt="Captura de pantalla de Dark Souls III mostrando a Lorian."
+                />
+                <div class="datos" onclick="cambiarPersonaje()">
+                    <h3 class="nombre" id="nombre">Lorian, Príncipe Anciano</h3>
+                    <span class="salud" id="salud">7.730 PS</span>
+                </div>
+                <hr />
+                <article onclick="cambiarPersonaje()">
+                    Lothric y Lorian, junto con Ocelotte, son los hijos del Rey
+                    Oceiros y la Reina de Lothric. El mayor, Lorian, era un
+                    caballero que logró acabar con el Príncipe demonio,
+                    envolviendo su espada con el poder de las llamas. Lothric
+                    nació enfermo y débil, y no parece haber tenido algún tipo
+                    de entrenamiento en combate. <br />
+                    La estirpe de los Lothric estaba obsesionada con crear un
+                    niño tan fuerte que pudiera ser el candidato perfecto para
+                    enlazar la Primera Llama y sobrevivir como un Señor de la
+                    Ceniza. Pero cuando no pudieron producir un heredero lo
+                    suficientemente fuerte, la familia cometió un acto tan atroz
+                    e infame que maldijo a Lothric.
+                </article>
+                <a
+                    class="wiki"
+                    id="wiki"
+                    href="https://darksouls.fandom.com/es/wiki/Ludleth_de_Courland"
+                    >Ludleth en Fandom.com</a
+                >
+            </div>
+            <div class="ficha">
+                <img
+                    src="./img/Ludleth.webp"
+                    alt="Captura de pantalla de Dark Souls III mostrando a Ludleth."
+                />
+                <div class="datos">
+                    <h3 class="nombre">Ludleth de Courland</h3>
+                    <span class="salud">250 PS</span>
+                </div>
+                <hr />
+                <article>
+                    Ludleth es un Señor de la Ceniza que enlazó la llama antes
+                    de los acontecimientos del juego. Es un practicante del
+                    aparentemente poco observado arte de la transposición.
+                    <br />
+                    Poco se sabe acerca de su pasado, aunque está implícito en
+                    su trono que fue exiliado de algún lugar en algún momento
+                    debido a que el mencionado arte era considerado tabú.
+                </article>
+                <a
+                    class="wiki"
+                    href="https://darksouls.fandom.com/es/wiki/Ludleth_de_Courland"
+                    >Ludleth en Fandom.com</a
+                >
+            </div>
+            <div class="ficha">
+                <img
+                    src="./img/Alma_de_Cenizas.webp"
+                    alt="Captura de pantalla de Dark Souls III mostrando el Alma de Cenizas."
+                />
+                <div class="datos">
+                    <h3 class="nombre">Alma de Cenizas</h3>
+                    <span class="salud">10.750 PS</span>
+                </div>
+                <hr />
+                <article>
+                    El Alma de Cenizas es una amalgama de los anteriores Señores
+                    de la Ceniza incluyendo al No muerto elegido, al Portador de
+                    la maldición, a Gwyn, el Primer Señor y a otros personajes
+                    que enlazaron la Primera Llama. <br />
+                    El papel del Alma de Cenizas como la manifestación deífica
+                    de los Señores de la Ceniza es defender la llama y actuar
+                    como la última línea de defensa contra el Ser de la ceniza
+                    cuando este llega a la ubicación de la Primera Llama.
+                </article>
+                <a
+                    class="wiki"
+                    href="https://darksouls.fandom.com/es/wiki/Alma_de_Cenizas"
+                    >Alma de Cenizas en Fandom.com</a
+                >
+            </div>
+        </main>
+        <footer>
+            <p class="autor"><span class="autor">Autor: </span>ElenaRgC</p>
+            <p class="creditos">
+                Imágenes, textos y datos extraídos de
+                <a href="darksouls.fandom.com/es">darksouls.fandom.com/es</a>.
+            </p>
+        </footer>
+    </body>
+</html>
