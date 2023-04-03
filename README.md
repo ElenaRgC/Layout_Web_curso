@@ -18,7 +18,7 @@ En mi proyecto de esta lección, he creado fichas responsive con los jefes de Da
 
 En esta lección junto con la anterior aprenderemos a utilizar CSS Grid, un sistema de diseño bidimensional que nos permite crear diseños más complejos y estructurados. 
 
-Aún no he completado el ejercicio de esta lección.
+En la solución que he presentado para este proyecto he presentado en una cuadrícula sencilla a algunos de los dioses nórdicos más famosos, con una rejilla interior para posicionar sus elementos.
 
 ## Lección 6: La tercera dimensión: profundidad y efectos en scroll
 
