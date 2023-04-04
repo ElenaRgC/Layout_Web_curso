@@ -24,7 +24,7 @@ En la solución que he presentado para este proyecto he presentado en una cuadr�
 
 En esta lección hemos aprendido sobre la perfectiva, las transformaciones 3D, los headers fijos y móviles y soluciones con y sin librerías de JavaScript.
 
-Aún no he completado el ejercicio de esta lección.
+Para esta lección mi proyecto han sido tarjetas con la portada de los diferentes libros de la saga "Percy Jackson" que al voltearse muestran información sobre el libro. Además he usado el paquete [headroom.js](https://github.com/WickyNilliams/headroom.js) para añadir un header que aparece y desaparece según la dirección del scroll.
 
 ## Proyecto final
 
