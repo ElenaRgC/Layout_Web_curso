@@ -22,11 +22,13 @@ En la solución que he presentado para este proyecto he presentado en una cuadr�
 
 ## Lección 6: La tercera dimensión: profundidad y efectos en scroll
 
-En esta lección aprenderemos sobre el concepto de z-index y cómo podemos utilizarlo para controlar la posición de los elementos en una página web.
+En esta lección hemos aprendido sobre la perfectiva, las transformaciones 3D, los headers fijos y móviles y soluciones con y sin librerías de JavaScript.
 
 Aún no he completado el ejercicio de esta lección.
 
 ## Proyecto final
+
+El proyecto final intentará aunar todo lo aprendido a lo largo del curso.
 
 El proyecto final aún no ha sido completado. 
 
