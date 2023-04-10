@@ -3,7 +3,7 @@
     --color-medium-text: #4a4e69;
     --color-light-text: #f8f7ff;
     --color-dark-bg: #22223b;
-    --color-medium-bg: #9a8c98;
+    --color-medium-bg: #d6c1b5;
     --color-light-bg: #f2e9e4;
 }
 
@@ -16,6 +16,8 @@
 img {
     display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 body {
@@ -27,12 +29,33 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+header {
+    background-color: var(--color-dark-bg);
+}
+
 main {
     flex: 1;
 }
 
-header {
+main > * {
+    padding: 2% 10%;
+}
+
+main > *:nth-child(odd) {
     background-color: var(--color-medium-bg);
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.dos-columnas {
+    grid-template-columns: 1fr 1fr;
+}
+
+.tres-columnas {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer {
