@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+body {
+    color-scheme: light;
+}
+
 img {
     display: block;
     width: 100%;
@@ -56,6 +60,23 @@ main > *:nth-child(odd) {
 
 .tres-columnas {
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.opinion {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    align-items: center;
+    text-align: center;
+}
+
+.opinion .cita {
+    font-style: oblique;
+}
+
+.opinion i::before {
+    font-size: 6rem;
 }
 
 footer {
