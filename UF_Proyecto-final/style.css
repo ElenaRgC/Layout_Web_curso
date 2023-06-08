@@ -1,10 +1,8 @@
 :root {
-    --color-dark-text: #000;
-    --color-medium-text: #4a4e69;
+    --color-medium-text: #b9b9b9;
     --color-light-text: #f8f7ff;
-    --color-dark-bg: #22223b;
-    --color-medium-bg: #d6c1b5;
-    --color-light-bg: #f2e9e4;
+    --color-dark-bg: #121212;
+    --color-medium-bg: #1f1f1f;
 }
 
 * {
@@ -14,7 +12,7 @@
 }
 
 body {
-    color-scheme: light;
+    color-scheme: dark;
 }
 
 img {
@@ -29,12 +27,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
 
-    background-color: var(--color-light-bg);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-header {
+    color: var(--color-light-text);
     background-color: var(--color-dark-bg);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -49,17 +44,77 @@ main > *:nth-child(odd) {
     background-color: var(--color-medium-bg);
 }
 
+.hero {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero a {
+    display: inline-block;
+    background-color: var(--color-light-text);
+    color: var(--color-dark-bg);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.hero a:hover {
+    background-color: var(--color-medium-text);
+}
+
+svg {
+    width: 100vw;
+    margin: -5%;
+    position: absolute;
+    bottom: 0;
+}
+
 .grid {
     display: grid;
     gap: 2rem;
 }
 
-.dos-columnas {
-    grid-template-columns: 1fr 1fr;
+.libros {
+    grid-auto-flow: column;
+    overflow-x: auto;
 }
 
-.tres-columnas {
-    grid-template-columns: 1fr 1fr 1fr;
+.libros::-webkit-scrollbar {
+    height: 0.6rem;
+}
+
+.libros::-webkit-scrollbar-track {
+    background-color: var(--color-dark-text);
+}
+
+.libros::-webkit-scrollbar-thumb {
+    background-color: var(--color-medium-text);
+    border-radius: 10px;
+}
+
+.libro {
+    width: max(15rem, 20vw);
+}
+
+.opiniones {
+    grid-template-columns: 30% 30% 30%;
 }
 
 .opinion {
@@ -69,6 +124,18 @@ main > *:nth-child(odd) {
 
     align-items: center;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    .opiniones {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 300px) {
+    .opiniones {
+        grid-template-columns: 1fr;
+    }
 }
 
 .opinion .cita {
@@ -85,12 +152,5 @@ footer {
 
     align-items: center;
 
-    background-color: var(--color-dark-bg);
-    color: var(--color-light-text);
-
     padding: 1rem;
-}
-
-footer > ul {
-    list-style-type: none;
 }
